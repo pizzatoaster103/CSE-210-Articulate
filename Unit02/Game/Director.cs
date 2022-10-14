@@ -52,7 +52,7 @@ namespace Unit02.Game
         }
 
         /// <summary>
-        /// Updates the player's score.
+        /// Rolls the dice, updates the player's score.
         /// </summary>
         public void DoUpdates()
         {
