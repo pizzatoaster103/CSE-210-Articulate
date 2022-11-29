@@ -26,7 +26,7 @@ namespace Unit05
             // create the services
             KeyboardService keyboardService = new KeyboardService();
             VideoService videoService = new VideoService(false);
-           
+
             // create the script
             Script script = new Script();
             script.AddAction("input", new ControlActorsAction(keyboardService));
